@@ -1,0 +1,8 @@
+[
+  {"claim_id":"CL-5001","claimant_id":"CLM-101","employer_id":"EMP-201","filed_date":"2026-08-12","weekly_benefit":721,"risk_score":86,"top_signals":"same_ip_multi_claimant;employer_verification_pending","status":"Open"},
+  {"claim_id":"CL-5002","claimant_id":"CLM-102","employer_id":"EMP-202","filed_date":"2026-08-15","weekly_benefit":684,"risk_score":92,"top_signals":"same_ip_multi_claimant;cross_state_ip_mismatch;velocity_spike","status":"Under Investigation"},
+  {"claim_id":"CL-5003","claimant_id":"CLM-103","employer_id":"EMP-202","filed_date":"2026-08-16","weekly_benefit":655,"risk_score":78,"top_signals":"same_ip_multi_claimant;cross_state_ip_mismatch","status":"Open"},
+  {"claim_id":"CL-5004","claimant_id":"CLM-104","employer_id":"EMP-203","filed_date":"2026-08-18","weekly_benefit":512,"risk_score":63,"top_signals":"bank_account_reuse;employer_verification_pending","status":"Under Investigation"},
+  {"claim_id":"CL-5005","claimant_id":"CLM-105","employer_id":"EMP-204","filed_date":"2026-08-20","weekly_benefit":598,"risk_score":35,"top_signals":"new_device","status":"Open"},
+  {"claim_id":"CL-5006","claimant_id":"CLM-106","employer_id":"EMP-203","filed_date":"2026-08-22","weekly_benefit":476,"risk_score":18,"top_signals":"address_change_recent","status":"Open"}
+]
