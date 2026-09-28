@@ -1,0 +1,7 @@
+[
+  {"policy_id":"POL-001","source_doc":"UI Integrity Review Guide (Demo)","section":"4.2 Network Indicators","text":"A shared IP address may be used as an investigative lead but must not, by itself, determine eligibility or fraud. Investigators should corroborate the indicator with identity, employer, device, or payment evidence."},
+  {"policy_id":"POL-002","source_doc":"UI Integrity Review Guide (Demo)","section":"4.4 Cross-State Filing","text":"A filing location inconsistent with the claimant address should be documented and reviewed in context. Travel, relocation, shared networks, and authorized assistance are possible non-fraud explanations."},
+  {"policy_id":"POL-003","source_doc":"Benefit Payment Controls Manual (Demo)","section":"7.1 Payment Reuse","text":"Reuse of a payment instrument across unrelated claims requires additional verification before disposition. The signal is not independently dispositive."},
+  {"policy_id":"POL-004","source_doc":"Adjudication Standards (Demo)","section":"2.3 Human Review","text":"Automated risk scores prioritize work and do not constitute findings of fraud. Final disposition requires documented human review of relevant evidence."},
+  {"policy_id":"POL-005","source_doc":"Employer Verification Guide (Demo)","section":"5.6 Employer Response","text":"When employer separation or wage verification is incomplete, the case should remain unresolved until required evidence is obtained or the applicable response period expires."}
+]
