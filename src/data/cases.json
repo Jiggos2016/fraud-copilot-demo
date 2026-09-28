@@ -1,0 +1,7 @@
+[
+  {"case_id":"CASE-9001","claim_id":"CL-5001","assigned_investigator":"INV-01","notes_summary":"Opened after network-link signal review. Employer verification still pending.","closed_outcome":""},
+  {"case_id":"CASE-9002","claim_id":"CL-5002","assigned_investigator":"INV-02","notes_summary":"Shared IP linked to another claimant. Manual identity review requested.","closed_outcome":""},
+  {"case_id":"CASE-9003","claim_id":"CL-5003","assigned_investigator":"INV-01","notes_summary":"Cross-state filing context documented. No disposition entered.","closed_outcome":""},
+  {"case_id":"CASE-8901","claim_id":"CL-5004","assigned_investigator":"INV-03","notes_summary":"Closed comparison case involving bank account reuse and employer verification. Resolved as false positive after documentation review.","closed_outcome":"False Positive"},
+  {"case_id":"CASE-8894","claim_id":"CL-5005","assigned_investigator":"INV-02","notes_summary":"Closed comparison case involving a new device signal. Additional identity evidence supported the claimant.","closed_outcome":"False Positive"}
+]
