@@ -1,0 +1,27 @@
+{
+  "CL-5001": [
+    {"match":"similar closed cases","answer":"One closed comparison case shares an employer-verification signal. CASE-8901 was resolved as a false positive after documentation review.","citations":[{"type":"case","id":"CASE-8901","label":"CASE-8901"}]},
+    {"match":"shared ip","answer":"Policy says a shared IP may be used as an investigative lead, but it cannot by itself determine fraud or eligibility. Corroborating evidence is required.","citations":[{"type":"policy","id":"POL-001","label":"4.2 Network Indicators · UI Integrity Review Guide (Demo)"}]},
+    {"match":"employer verification","answer":"When employer verification is incomplete, the matter should remain unresolved until required evidence is obtained or the response period expires.","citations":[{"type":"policy","id":"POL-005","label":"5.6 Employer Response · Employer Verification Guide (Demo)"}]}
+  ],
+  "CL-5002": [
+    {"match":"similar closed cases","answer":"No closed case in this small demo dataset matches every signal. CASE-8894 is available only as a weaker comparison involving device context.","citations":[{"type":"case","id":"CASE-8894","label":"CASE-8894"}]},
+    {"match":"shared ip","answer":"A shared IP is an investigative lead only and must be corroborated before any disposition.","citations":[{"type":"policy","id":"POL-001","label":"4.2 Network Indicators · UI Integrity Review Guide (Demo)"}]},
+    {"match":"cross state","answer":"Cross-state filing context should be documented and reviewed because legitimate explanations can include travel, relocation, shared networks, or authorized assistance.","citations":[{"type":"policy","id":"POL-002","label":"4.4 Cross-State Filing · UI Integrity Review Guide (Demo)"}]}
+  ],
+  "CL-5003": [
+    {"match":"shared ip","answer":"Shared-IP evidence is non-dispositive and requires corroboration.","citations":[{"type":"policy","id":"POL-001","label":"4.2 Network Indicators · UI Integrity Review Guide (Demo)"}]},
+    {"match":"cross state","answer":"Policy requires contextual review of a filing-location mismatch and explicitly recognizes legitimate explanations.","citations":[{"type":"policy","id":"POL-002","label":"4.4 Cross-State Filing · UI Integrity Review Guide (Demo)"}]}
+  ],
+  "CL-5004": [
+    {"match":"bank account","answer":"Payment-instrument reuse requires additional verification and is not independently dispositive.","citations":[{"type":"policy","id":"POL-003","label":"7.1 Payment Reuse · Benefit Payment Controls Manual (Demo)"}]},
+    {"match":"similar closed cases","answer":"CASE-8901 is the demo comparison case for bank-account reuse and employer-verification signals.","citations":[{"type":"case","id":"CASE-8901","label":"CASE-8901"}]}
+  ],
+  "CL-5005": [
+    {"match":"similar closed cases","answer":"CASE-8894 involved a new-device signal and was resolved as a false positive after additional identity evidence.","citations":[{"type":"case","id":"CASE-8894","label":"CASE-8894"}]},
+    {"match":"risk score","answer":"The demo adjudication policy states that automated risk scores prioritize work and do not constitute findings of fraud.","citations":[{"type":"policy","id":"POL-004","label":"2.3 Human Review · Adjudication Standards (Demo)"}]}
+  ],
+  "CL-5006": [
+    {"match":"risk score","answer":"Risk scores are prioritization signals only. Final disposition requires documented human review.","citations":[{"type":"policy","id":"POL-004","label":"2.3 Human Review · Adjudication Standards (Demo)"}]}
+  ]
+}
